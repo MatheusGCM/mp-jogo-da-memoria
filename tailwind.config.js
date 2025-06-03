@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -16,9 +13,12 @@ export default {
         'border-color': '#FF6D00',
       },
       fontFamily: {
-        'normal': ['Roboto', 'sans-serif'],
-        'title': ['Kavoon', 'serif'],
-      }
+        normal: ['Roboto', 'sans-serif'],
+        title: ['Kavoon', 'serif'],
+      },
+      transformOrigin: {
+        center: 'center',
+      },
     },
   },
   plugins: [],

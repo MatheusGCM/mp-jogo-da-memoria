@@ -10,13 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "motion": "^12.15.0",
     "react": "^18.2.0",
     "react-card-flip": "^1.2.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
-    "sweetalert2": "^11.10.5"
+    "sweetalert2": "^11.10.5",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
